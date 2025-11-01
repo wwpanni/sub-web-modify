@@ -349,6 +349,8 @@ export default {
           "sub-web作者提供": "https://api.wcc.best",
         },
         backendOptions: [
+          { value: "subapi.jjgo.top:25500" },
+          { value: "www.jjgo.top:25500" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
@@ -1312,6 +1314,7 @@ export default {
   }
 };
 </script>
+
 
 
 
