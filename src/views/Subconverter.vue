@@ -360,8 +360,8 @@ export default {
             label: "CM规则",
             options: [
               {
-                label: "CM_Online 默认版 识别港美地区(与Github同步)",
-                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
+                label: "自建",
+                value: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini"
               },
               {
                 label: "CM_Online_MultiCountry 识别港美地区 负载均衡(与Github同步)",
@@ -1310,3 +1310,4 @@ export default {
   }
 };
 </script>
+
