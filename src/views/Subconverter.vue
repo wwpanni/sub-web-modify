@@ -338,8 +338,8 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "爪云后端":"http://subapi.jjgo.top:25500",
-          "jjgo后端":"http://www.jjgo.top:25500",
+          "爪云后端":"http://subapi.jjgo.top",
+          "jjgo后端":"http://www.jjgo.top",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -349,8 +349,8 @@ export default {
           "sub-web作者提供": "https://api.wcc.best",
         },
         backendOptions: [
-          { value: "http://subapi.jjgo.top:25500" },
-          { value: "http://www.jjgo.top:25500" },
+          { value: "http://subapi.jjgo.top" },
+          { value: "http://www.jjgo.top" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
@@ -790,7 +790,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "http://subapi.jjgo.top:25500" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "http://subapi.jjgo.top" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
         excludeRemarks: "",
