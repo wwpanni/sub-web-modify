@@ -788,9 +788,9 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "http://subapi.jjgo.top" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://clashapi.jjgo.top" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
+        remoteConfig: "https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
@@ -1312,6 +1312,7 @@ export default {
   }
 };
 </script>
+
 
 
 
