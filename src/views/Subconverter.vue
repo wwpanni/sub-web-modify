@@ -339,7 +339,7 @@ export default {
         },
         customBackend: {
           "clwa自建后端":"http://sub1api.jjgo.top",
-          "nas自建后端":"http://www.jjgo.top:25500",
+          "nas自建后端":"https://nasclashapi.jjgo.top:44433",
           "cloudflare自建后端":"https://clashapi.jjgo.top",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
@@ -351,7 +351,7 @@ export default {
         },
         backendOptions: [
           { value: "http://sub1api.jjgo.top"},
-          { value: "http://www.jjgo.top:25500"},
+          { value: "https://nasclashapi.jjgo.top:44433"},
           { value: "https://clashapi.jjgo.top" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
@@ -1316,6 +1316,7 @@ export default {
   }
 };
 </script>
+
 
 
 
