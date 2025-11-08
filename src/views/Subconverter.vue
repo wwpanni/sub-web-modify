@@ -338,8 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "clwa自建后端":"http://sub1api.jjgo.top",
-          "nas自建后端":"https://nasclashapi1.jjgo.top",
+          "clwacloud自建后端":"https://sub1api.jjgo.top", 
           "cloudflare自建后端":"https://clashapi.jjgo.top",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
@@ -350,8 +349,7 @@ export default {
           "sub-web作者提供": "https://api.wcc.best",
         },
         backendOptions: [
-          { value: "http://sub1api.jjgo.top"},
-          { value: "https://nasclashapi1.jjgo.top"},
+          { value: "https://sub1api.jjgo.top"},
           { value: "https://clashapi.jjgo.top" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
@@ -792,7 +790,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "http://sub1api.jjgo.top" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://sub1api.jjgo.top" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
         excludeRemarks: "",
@@ -1316,6 +1314,7 @@ export default {
   }
 };
 </script>
+
 
 
 
