@@ -365,7 +365,7 @@ export default {
             options: [
               {
                 label: "自建",
-                value: "https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini"
+                value: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini"
               },
               {
                 label: "CM_Online_MultiCountry 识别港美地区 负载均衡(与Github同步)",
@@ -792,7 +792,7 @@ export default {
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://sub1api.jjgo.top" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
+        remoteConfig: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
@@ -1314,6 +1314,7 @@ export default {
   }
 };
 </script>
+
 
 
 
