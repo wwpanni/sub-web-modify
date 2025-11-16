@@ -332,10 +332,6 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
-          "v1.mk": "https://v1.mk/short",
-          "d1.mk": "https://d1.mk/short",
-          "dlj.tf": "https://dlj.tf/short",
-          "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
           "NAS自建后端":"https://nasclashapi.jjgo.top:44433", 
@@ -364,7 +360,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://nasclashapi.jjgo.top:44433" : this.getUrlParam(),
-        shortType: "https://v1.mk/short",
+        shortType: "",
         remoteConfig: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -887,6 +883,7 @@ export default {
   }
 };
 </script>
+
 
 
 
