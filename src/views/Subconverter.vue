@@ -338,7 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "NAS自建后端":"https://nasclashapi.jjgo.top:44433/", 
+          "NAS自建后端":"https://nasclashapi.jjgo.top:44433", 
           "clwacloud自建后端":"https://sub1api.jjgo.top", 
           "cloudflare自建后端":"https://clashapi.jjgo.top",
         },
@@ -363,7 +363,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://nasclashapi.jjgo.top:44433/" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://nasclashapi.jjgo.top:44433" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
         excludeRemarks: "",
@@ -887,6 +887,7 @@ export default {
   }
 };
 </script>
+
 
 
 
