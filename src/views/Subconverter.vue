@@ -355,10 +355,7 @@ export default {
                 label: "自建",
                 value: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini"
               }
-              {
-                label: "自建",
-                value: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini"
-              }
+              
             ]
           }
         ]
@@ -890,6 +887,7 @@ export default {
   }
 };
 </script>
+
 
 
 
