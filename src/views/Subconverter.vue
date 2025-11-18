@@ -335,13 +335,13 @@ export default {
         },
         customBackend: {
           "NAS自建后端":"https://nasclashapi.jjgo.top:44433", 
-          "clwacloud自建后端":"https://sub1api.jjgo.top", 
-          "cloudflare自建后端":"https://clashapi.jjgo.top",
+          "clwacloud自建后端":"https://clashapi.jjgo.top", 
+          "cloudflare自建后端":"https://bll.jjgo.top",
         },
         backendOptions: [
           { value: "https://nasclashapi.jjgo.top:44433/"},
-          { value: "https://sub1api.jjgo.top"},
-          { value: "https://clashapi.jjgo.top" },
+          { value: "https://clashapi.jjgo.top"},
+          { value: "https://bll.jjgo.top" },
         ],
         remoteConfig: [
           {
@@ -883,6 +883,7 @@ export default {
   }
 };
 </script>
+
 
 
 
