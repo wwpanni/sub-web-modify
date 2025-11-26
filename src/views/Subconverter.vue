@@ -334,13 +334,15 @@ export default {
         shortTypes: {
         },
         customBackend: {
-          "NAS自建后端":"https://nasclashapi.jjgo.top:44433", 
-          "clwacloud自建后端":"https://clashapi.jjgo.top", 
-          "cloudflare自建后端":"https://bll.jjgo.top",
+          "clwa自建后端1":"https://claw1-subapi.jjgo.top", 
+          "clwa自建后端2":"https://claw2-subapi.jjgo.top", 
+          "clwa自建后端3":"https://claw3-subapi.jjgo.top",       
+          "cloudflare自建不良林后端":"https://bll.jjgo.top",
         },
         backendOptions: [
-          { value: "https://nasclashapi.jjgo.top:44433/"},
-          { value: "https://clashapi.jjgo.top"},
+          { value: "https://claw1-subapi.jjgo.top"},
+          { value: "https://claw2-subapi.jjgo.top"},
+          { value: "https://claw3-subapi.jjgo.top"},
           { value: "https://bll.jjgo.top" },
         ],
         remoteConfig: [
@@ -359,7 +361,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://nasclashapi.jjgo.top:44433" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://claw1-subapi.jjgo.top" : this.getUrlParam(),
         shortType: "",
         remoteConfig: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
         excludeRemarks: "",
@@ -883,6 +885,7 @@ export default {
   }
 };
 </script>
+
 
 
 
