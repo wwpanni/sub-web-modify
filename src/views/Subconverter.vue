@@ -332,6 +332,7 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
+           "cloudflare自建短链":"https://duan.jjgo.top", 
         },
         customBackend: {
           "clwa自建后端1":"https://claw1-subapi.jjgo.top", 
@@ -362,7 +363,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://claw1-subapi.jjgo.top" : this.getUrlParam(),
-        shortType: "",
+        shortType: "https://duan.jjgo.top",
         remoteConfig: "https://git.jjgo.top/https://raw.githubusercontent.com/wwpanni/clashdingyue/refs/heads/main/clash.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -885,6 +886,7 @@ export default {
   }
 };
 </script>
+
 
 
 
